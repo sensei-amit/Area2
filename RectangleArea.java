@@ -17,6 +17,15 @@ class RectangleArea {
     public void displayArea() {
         System.out.println("Rectangle Area: " + calculateArea());
     }
+    
+    public static void main(String[] args) {
+        CircleArea circle = new CircleArea(5);
+        RectanglePerimeter rectangle = new RectanglePerimeter(4, 7);
+
+        circle.displayCircleDetails();
+        rectangle.displayRectangleDetails();
+    }
 }
+
 
 
