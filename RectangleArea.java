@@ -2,7 +2,7 @@ class RectangleArea {
     private double length;
     private double breadth;
 
-    public RectanglePerimeter(double length, double breadth) {
+    public RectangleArea(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
     }
