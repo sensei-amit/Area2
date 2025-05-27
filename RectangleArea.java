@@ -1,4 +1,4 @@
-class RectanglePerimeter {
+class RectangleArea {
     private double length;
     private double breadth;
 
